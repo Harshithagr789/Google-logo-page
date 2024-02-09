@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Custom Google Search</title>
+    <style>
+        /* CSS to add the Google logo */
+        .google-logo {
+            background-image: url("https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png");
+            background-size: 272px 92px;
+            background-position: center center;
+            background-repeat: no-repeat;
+            width: 272px;
+            height: 92px;
+            margin: 0 auto;
+            margin-top: 200px;
+        }
+        
+        /* CSS to center the search input */
+        .search-form {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+            border-radius: 4px;
+        }
+        
+        .search-input {
+            width: 300px;
+            text-align: center;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+    <!-- HTML body with Google logo -->
+    <div class="google-logo"></div>
+
+    <!-- Google search form -->
+    <form class="search-form" action="https://www.google.com/search" method="GET">
+        <input class="search-input" type="text" name="q" placeholder="Search Google">
+        <input type="submit" value="Search">
+    </form>
+</body>
+</html>
+
+  
